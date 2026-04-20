@@ -9,7 +9,7 @@ For questions regarding the dataset or analysis, please contact:
 
 The folder **Soil_Scripts** contains the analysis scripts for **microbial single-cell RNA sequencing (mscRNA-seq) data from crop rhizosphere soils**.
 
-The corresponding **expression matrices and species annotation files** for the microbial single-cell RNA sequencing dataset are available at:
+The corresponding **expression matrices** and **species annotation files** for the microbial single-cell RNA sequencing dataset are available at:
 
 https://doi.org/10.6084/m9.figshare.31872934
 
