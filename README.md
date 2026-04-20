@@ -19,13 +19,11 @@ For subsequent analyses, place the **Soil_Matrix** folder and the **Soil_Scripts
 
 ```
 project_directory/
-│
 ├── Soil_Scripts
 │   ├── Figure3
 │   ├── Figure4
 │   ├── Figure5
 │   └── Figure6
-│
 └── Soil_Matrix
 ```
 
