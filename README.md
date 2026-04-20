@@ -1,5 +1,10 @@
 # CRSM_code
 
+For questions regarding this dataset or analysis, please contact:
+
+- **Yongcheng Wang** - [yongcheng@zju.edu.cn](mailto:yongcheng@zju.edu.cn)
+- **Xinghai Zheng** - [xhzheng@zju.edu.cn](mailto:xhzheng@zju.edu.cn)
+
 ## Data and Script Preparation
 
 The folder **Soil_Scripts** contains the analysis scripts for **microbial single-cell RNA sequencing (mscRNA-seq) data from crop rhizosphere soils**.
