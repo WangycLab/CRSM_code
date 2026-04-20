@@ -1,6 +1,6 @@
 # CRSM_code
 
-For questions regarding this dataset or analysis, please contact:
+For questions regarding the dataset or analysis, please contact:
 
 - **Yongcheng Wang** - [yongcheng@zju.edu.cn](mailto:yongcheng@zju.edu.cn)
 - **Xinghai Zheng** - [xhzheng@zju.edu.cn](mailto:xhzheng@zju.edu.cn)
