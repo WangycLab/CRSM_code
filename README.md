@@ -75,23 +75,32 @@ Navigate to the folder:
 Soil_Scripts/Figure4
 ```
 
-To generate **Figure 4b**, run:
+To generate **Figure 4a**, run:  
 
 ```
-Figure4b_expression_profile.R
-Figure4b_expression_similarity.py
-```
-
-To generate **Figure 4a, 4c, and 4d**, run the following scripts in sequence:
-
-```
-Figure4acd_umap_clustering.R
+Figure4_umap_clustering.R
 Figure4a_gene_cell_counts.py
-Figure4c_composition_umap.py
-Figure4d_sankey_mapping.py
 ```
 
-These scripts will produce **Figure 4a**, **Figure 4c**, and **Figure 4d**, respectively.
+To generate **Figure 4b**, run the following scripts in sequence: 
+
+```
+Figure4b_cluster_annotation.py
+Figure4b_cluster_cog.py
+Figure4b_composition_umap.py
+```
+
+To generate **Figure 4c**, run: 
+
+```
+Figure4c_sankey_mapping.py
+```
+
+To generate **Figure 4d**, run: 
+
+```
+Figure4d_cluster_feature.py
+```
 
 ---
 
@@ -103,19 +112,10 @@ Navigate to the folder:
 Soil_Scripts/Figure5
 ```
 
-To generate **Figure 5a**, run the scripts in the following order:
+To generate **Figure 5a–c**, run:
 
 ```
-Figure5a_cluster_degs.R
-Figure5a_cluster_annotation.py
-Figure5a_cluster_similarity.py
-Figure5a_cluster_feature.py
-```
-
-To generate **Figure 5b–c**, run:
-
-```
-Figure5bcde_hdWGCNA.R
+Figure5_hdWGCNA.R
 ```
 
 To generate **Figure 5d**, run:
@@ -145,7 +145,7 @@ Soil_Scripts/Figure6
 To generate **Figure 6a**, run:
 
 ```
-Figure6abcd_single_species_umap.R
+Figure6_single_species_umap.R
 ```
 
 To generate **Figure 6b**, run:
@@ -158,7 +158,7 @@ To generate **Figure 6c**, run the following scripts sequentially:
 
 ```
 Figure6cd_crop_annotation.py
-Figure6c_deg_crop_bubble.py
+Figure6c_crop_bubble.py
 ```
 
 To generate **Figure 6d**, run:
