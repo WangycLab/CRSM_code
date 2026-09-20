@@ -53,16 +53,16 @@ The main preprocessing and taxonomic classification steps were:
 ```bash
 # Read preprocessing and barcode/UMI processing
 anchorbcm.o \
-  -1 <(zcat Rice_2_r1.fq.gz) \
-  -2 <(zcat Rice_2_r2.fq.gz) \
+  -1 <(zcat sample_r1.fq.gz) \
+  -2 <(zcat sample_r2.fq.gz) \
   -b prev6v2.msr \
-  -o clean_data/Rice_2_
+  -o clean_data/sample_
 
 # Taxonomic classification
 python scMeta.py --cfg config.ini
 
 # Extract detected species
-tail -n +2 Result/Rice_2_10k_sc_taxonomy.report | \
+tail -n +2 Result/sample_sc_taxonomy.report | \
 awk -F '\t' '$7 >= 0 && $8 >= 0 {print $3}' | \
 sort -n | uniq > species.txt
 ```
@@ -105,7 +105,7 @@ STAR --runThreadN 10 \
   --soloCBlen 20 \
   --soloUMIstart 21 \
   --soloUMIlen 8 \
-  --readFilesIn clean_data/Rice_2_2.fq clean_data/Rice_2_1.fq \
+  --readFilesIn clean_data/sample_2.fq clean_data/sample_1.fq \
   --outSAMtype BAM SortedByCoordinate \
   --soloFeatures GeneFull \
   --soloStrand Reverse \
